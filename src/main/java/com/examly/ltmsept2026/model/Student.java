@@ -1,19 +1,14 @@
 package com.examly.ltmsept2026.model;
 
 public class Student {
-    private int id;
+    private int studentId;
     private String name;
+    private double percentage;
 
-    public Student(int id, String name) {
-        this.id = id;
+
+    public Student(int id, String name,double percentage) {
+        this.studentId = id;
         this.name = name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
+        this.percentage = percentage;
     }
 }
